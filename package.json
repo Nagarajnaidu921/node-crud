@@ -1,10 +1,11 @@
 {
   "name": "crud",
   "version": "1.0.0",
-  "description": "",
+  "description": "node practice",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +17,19 @@
     "express": "^4.16.2",
     "jsonwebtoken": "^8.1.0",
     "mongoose": "^4.13.7",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "passport-google": "^0.3.0",
+    "passport-google-oauth": "^1.0.0",
+    "passport-google-oauth20": "^1.0.0",
     "uuid": "^3.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nagarajnaidu921/node-crud.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nagarajnaidu921/node-crud/issues"
+  },
+  "homepage": "https://github.com/Nagarajnaidu921/node-crud#readme"
 }

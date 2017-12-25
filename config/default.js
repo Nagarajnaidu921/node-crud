@@ -25,6 +25,13 @@ const config = {
         callbackURL: "http://localhost:3000/auth/facebook/signin",
         profileFields: ['id', 'displayName', 'gender', 'email' ]
     },
+    //google
+    google: {
+        clientID: '453874177864-nttsd48vs8ipfa51lstja5tj5iaag92n.apps.googleusercontent.com ',
+        clientSecret: 'wtzF0k85h7lePSZgjuvxvZII',
+        callbackURL: "http://localhost:3000/auth/google/signin",
+        profileFields: ['id', 'displayName', 'gender', 'email' ]
+    },
     // NODE ENV VARIABLES
 
     PORT: process.env.PORT || 3000

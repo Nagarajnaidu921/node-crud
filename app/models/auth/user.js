@@ -7,9 +7,7 @@ const UserShema = new Schema({
     userName: { type: String, required: [true, 'userName is required'] },
     emailId: { type: String, required: [true, 'EmailId is required'], uinque: [true, 'This email address already exist'] },
     password: {
-        type: String,
-        min: [8, 'password length shoud be more than 8 charecters'],
-        required: [true, 'password is required']
+        type: String
     }
 })
 
